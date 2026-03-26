@@ -61,7 +61,7 @@ plt.imshow(eroded_image_rgb)
 plt.title("Eroded Image")
 plt.axis("off")
 ```
-#Dilate the image
+Dilate the image
 
 ```
 dilated_image = cv2.dilate(image, kernel, iterations=1)
