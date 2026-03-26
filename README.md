@@ -1,7 +1,7 @@
 # Implementation-of-Erosion-and-Dilation
 
-# DEVELOPED BY :Susindhar K M
-# REG NO : 212223040218
+## DEVELOPED BY :Susindhar K M
+## REG NO : 212223040218
 ## Aim
 To implement Erosion and Dilation using Python and OpenCV.
 ## Software Required
