@@ -31,8 +31,8 @@ Finalize by calling plt.show() to display all images in a single figure for easy
  
 ## Program:
 
-``` Python
-# Import the necessary packages
+```Import the necessary packages
+ 
 
 
 
