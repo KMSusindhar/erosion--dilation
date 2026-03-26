@@ -33,7 +33,7 @@ Finalize by calling plt.show() to display all images in a single figure for easy
 
  
 ## Program:
-Import the necessary packages
+###Import the necessary packages
 ```
 import cv2
 import numpy as np
@@ -46,14 +46,14 @@ cv2.putText(image, text, (50, 150), font, 2, (255, 255, 255), 3)
 Create the structuring element
 kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (5, 5))
 ```
-Original image
+###Original image
 ```
 image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 plt.imshow(image_rgb)
 plt.title("Original Image")
 plt.axis("off")
 ```
-Erode the image
+###Erode the image
 ```
 eroded_image = cv2.erode(image, kernel, iterations=1)
 eroded_image_rgb = cv2.cvtColor(eroded_image, cv2.COLOR_BGR2RGB)
@@ -61,7 +61,8 @@ plt.imshow(eroded_image_rgb)
 plt.title("Eroded Image")
 plt.axis("off")
 ```
-Dilate the image
+###Dilate the image
+
 ```
 dilated_image = cv2.dilate(image, kernel, iterations=1)
 dilated_image_rgb = cv2.cvtColor(dilated_image, cv2.COLOR_BGR2RGB)
@@ -69,6 +70,7 @@ plt.imshow(dilated_image_rgb)
 plt.title("Dilated Image")
 plt.axis("off")
 ```
+
 ## Output:
 
 ### Display the input Image
